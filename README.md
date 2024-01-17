@@ -1,3 +1,7 @@
+
+
+https://github.com/shravanbaghel/Real-Time-Feedback-Portal/assets/48238406/adbff236-819a-4de3-8430-74fb2f37358b
+
 # Real-Time Customer Feedback Portal
 
 Welcome to the Real-Time Customer Feedback Portal! This project allows users to submit feedback in real-time and view all feedback updates instantly. The backend is built using Node.js, Express, and Socket.io for real-time communication, while the frontend is developed with React.js. The application uses MongoDB as the database for storing feedback.
