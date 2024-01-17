@@ -18,13 +18,14 @@ Welcome to the Real-Time Customer Feedback Portal! This project allows users to 
 - User authentication (optional).
 - Admin panel for feedback moderation (optional).
 
-## Prerequisites
-- Socket io
-- Node.js
-- MongoDB
-- Express
-- Mongoose
-- Cors
+## Prerequisites (Install all these dependencies)
+- Socket io (backend)
+- Socket.io-client (fronted)
+- Node.js (backend)
+- MongoDB (backend)
+- Express (backend)
+- Mongoose (backend)
+- Cors (backend)
   
 ## Installation
 
@@ -45,18 +46,23 @@ Frontend Setup:
 cd frontend
 npm install
 ```
-2. **Database Configuration:**
+**2. Database Configuration:**
+
 Set up a MongoDB database and update the connection string in 
 **Backend/index.js.**
 
-**Run the Application:**
+
+**3. Run the Application:**
+
 Start the backend server:
+
 Go to the src folder in the backend directory and then paste the below code
 ```bash
 node index.js
 ```
 
 Start the frontend application:
+
 Go to the directory of frontend folder and then paste the command below
 ```bash
 npm run dev
