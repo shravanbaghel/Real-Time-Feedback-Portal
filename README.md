@@ -48,8 +48,7 @@ npm install
 ```
 **2. Database Configuration:**
 
-Set up a MongoDB database and update the connection string in 
-**Backend/index.js.**
+Set up a MongoDB database and update the connection string in Backend/index.js.
 
 
 **3. Run the Application:**
