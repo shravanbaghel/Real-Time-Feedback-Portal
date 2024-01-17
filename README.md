@@ -31,5 +31,51 @@ Welcome to the Real-Time Customer Feedback Portal! This project allows users to 
    ```bash
    git clone https://github.com/your-username/real-time-feedback-portal.git
    cd real-time-feedback-portal
-   Backend Setup:
+   
+Backend Setup:
+```bash
+cd Backend
+npm install
+```
+
+Frontend Setup:
+```bash
+cd frontend
+npm install
+```
+Database Configuration:
+1. Set up a MongoDB database and update the connection string in 
+**Backend/index.js.**
+
+**Run the Application:**
+Start the backend server:
+Go to the src folder in the backend directory and then paste the below code
+```bash
+node index.js
+```
+
+Start the frontend application:
+Go to the directory of frontend folder and then paste the command below
+```bash
+npm run dev
+```
+
+**Open your browser and navigate to http://localhost:3000 to access the Real-Time Feedback Portal.**
+
+**Usage**
+Submit feedback using the form on the portal.
+View real-time updates of submitted feedback.
+
+**Contributing**
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+**License**
+This project is licensed under the MIT License.
+
+# Remember to replace placeholder details such as the GitHub repository URL and MongoDB connection string with your actual information. Additionally, you might want to include specific steps for configuring optional features like user authentication or the admin panel, depending on your project's implementation.
+
+
+
+
+
 
