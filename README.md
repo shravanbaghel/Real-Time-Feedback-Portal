@@ -4,7 +4,6 @@ Welcome to the Real-Time Customer Feedback Portal! This project allows users to 
 
 ## Table of Contents
 - [Features](#features)
-- [Folder Structure](#folder-structure)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -21,5 +20,16 @@ Welcome to the Real-Time Customer Feedback Portal! This project allows users to 
 - User authentication (optional).
 - Admin panel for feedback moderation (optional).
 
-## Folder Structure
+## Prerequisites
+
+- Node.js
+- MongoDB
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/real-time-feedback-portal.git
+   cd real-time-feedback-portal
+Backend Setup:
 
