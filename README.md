@@ -7,8 +7,6 @@ Welcome to the Real-Time Customer Feedback Portal! This project allows users to 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Optional Features](#optional-features)
-- [Evaluation Criteria](#evaluation-criteria)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -21,14 +19,17 @@ Welcome to the Real-Time Customer Feedback Portal! This project allows users to 
 - Admin panel for feedback moderation (optional).
 
 ## Prerequisites
-
+- Socket io
 - Node.js
 - MongoDB
-
+- Express
+- Mongoose
+- Cors
+  
 ## Installation
 
 1. **Clone the repository:**
-   ```bash
+ ```bash
    git clone https://github.com/your-username/real-time-feedback-portal.git
    cd real-time-feedback-portal
    
@@ -62,17 +63,19 @@ npm run dev
 
 **Open your browser and navigate to http://localhost:3000 to access the Real-Time Feedback Portal.**
 
-**Usage**
+# Usage
 Submit feedback using the form on the portal.
 View real-time updates of submitted feedback.
 
-**Contributing**
+# Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-**License**
+# License
 This project is licensed under the MIT License.
 
-# Remember to replace placeholder details such as the GitHub repository URL and MongoDB connection string with your actual information. Additionally, you might want to include specific steps for configuring optional features like user authentication or the admin panel, depending on your project's implementation.
+
+# Important Note:
+Remember to replace placeholder details such as the GitHub repository URL and MongoDB connection string with your actual information. Additionally, you might want to include specific steps for configuring optional features like user authentication or the admin panel, depending on your project's implementation.
 
 
 
