@@ -1,0 +1,89 @@
+
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  z-index: 1000; /* Set a high z-index to ensure it's on top of other elements */
+}
+
+
+.main {
+  padding: 6rem 2rem 2rem; 
+  text-align: center;
+  max-width: 50rem;
+ 
+}
+
+.hero {
+  background-color: #f0f0f0;
+  padding: 2rem;
+  border-radius: 8px;
+}
+.feedbackForm {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+
+}
+  
+.feedbackFormInput {
+  flex: 1;
+  padding: 1rem;
+}
+
+.btn {
+  background-color: #0070f3;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.feedbackList {
+  flex:1;
+  margin-top: 2rem;
+
+}
+
+.feedbackItem {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  background-color:#333;
+  color: white;
+  justify-content: flex-start; 
+  align-items: flex-start;
+
+ 
+}
+
+.feedbackItem h4 {
+  margin-bottom: 0.5rem;
+}
+
+.feedbackItem p {
+  margin-top: 0.5rem;
+  text-align: left;
+}
