@@ -32,6 +32,7 @@ Welcome to the Real-Time Customer Feedback Portal! This project allows users to 
  ```bash
    git clone https://github.com/your-username/real-time-feedback-portal.git
    cd real-time-feedback-portal
+```
    
 Backend Setup:
 ```bash
@@ -44,8 +45,8 @@ Frontend Setup:
 cd frontend
 npm install
 ```
-Database Configuration:
-1. Set up a MongoDB database and update the connection string in 
+2. **Database Configuration:**
+Set up a MongoDB database and update the connection string in 
 **Backend/index.js.**
 
 **Run the Application:**
