@@ -18,7 +18,7 @@ Welcome to the Real-Time Customer Feedback Portal! This project allows users to 
 - User authentication (optional).
 - Admin panel for feedback moderation (optional).
 
-## Prerequisites (Install all these dependencies)
+## Prerequisites (Install all these dependencies if needed)
 - Socket io (backend)
 - Socket.io-client (fronted)
 - Node.js (backend)
